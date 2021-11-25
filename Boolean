@@ -17,3 +17,37 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+
+**********************
+
+when a method returns true only then bool gets true else it will be false
+
+class myclass():
+  def __len__(self):
+    return 0 # returning 0
+
+myobj = myclass() # creating object for a class
+print(bool(myobj))# false
+
+*******
+def myFunction() :
+  return True
+
+print(myFunction()) # true
+
+********
+
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+  
+Output:- Yes!
+*********
+
+
+
