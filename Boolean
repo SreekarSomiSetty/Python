@@ -1,0 +1,19 @@
+print(bool("Hello"))# true
+print(bool(15))# true
+print(bool())# false
+
+
+Any string is True, except empty strings.
+
+Any number is True, except 0.
+
+Any list, tuple, set, and dictionary are True, except empty ones.
+
+All of these are false
+print(bool(False))
+print(bool(None))
+print(bool(0))
+print(bool(""))
+print(bool(()))
+print(bool([]))
+print(bool({}))
